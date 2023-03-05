@@ -1,0 +1,140 @@
+$primary-color: #ddffff!important;
+$dark-overlay: rgba(0,0,0,0.7);
+$icon-size: 50px;
+$primary: #3292a6;
+
+.navbar{
+  background: #000;
+    .nav-item{
+      padding-left: 1em;
+    }
+  .nav-link{
+    font-size: 16px;
+    text-transform: uppercase;
+
+  }
+}
+
+.carousel-item{
+  height: 450px;
+}
+
+.carousel-img-1{
+  background: url('../img/a3.jpg');
+  background-size: cover;
+}
+.carousel-img-2{
+  background: url('../img/g2.jpg');
+  background-size: cover;
+}
+.carousel-img-3{
+  background: url('../img/g3.jpg');
+  background-size: cover;
+}
+#getstarted{
+  position: relative;
+  background: url('../img/a2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+
+  .dark-overlay{
+    background: $dark-overlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+#searchbar{
+   background-color: $primary-color;
+}
+#loginID{
+  background: url('../img/a1.jpg')no-repeat;
+  background-size: cover;
+  width: 100%;
+  height:100vh;
+  .for{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    margin-top: 80px;
+    margin-right: 20px;
+
+  }
+}
+#ip{
+  background: url('../img/g2.jpg');
+  background-size: cover;
+  width: 100%;
+  height:100vh;
+
+  .vg{
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-top: 40px;
+  }
+}
+#home-icon{
+  .fa{
+    font-size: $icon-size;
+  }
+}
+#gallery{
+  img{
+    min-height: 250px;
+  }
+}
+#authors1{
+  img{
+    margin-top: -70px;
+  }
+  .fa{
+    font-size: 25px;
+  }
+  .card:hover{
+    background: $primary;
+    color: #fff;
+
+    .fa{
+      color: #fff;
+    }
+  }
+}
+
+#dash{
+  background: url('../img/g2.jpg');
+  background-size: cover;
+  width: 100%;
+  height:100vh;
+
+  .vb{
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-top: 40px;
+  }
+}
+
+@media(max-width: 767px){
+  .nav-item{
+    padding-left: 0 !important;
+  }
+}
+
+@media(max-width: 480px){
+  .carousel{
+    h2{
+      font-size: 2.5rem;
+    }
+  }
+}
